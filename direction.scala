@@ -42,7 +42,7 @@ object Direction {
    * @return Une option qui renvoie la direction si s est bien une direction valide if the string corresponds to any of the direction
    *         Renvoie une erreur sinon
    */
-  def stringToDirectionc(s: String): Option[Direction] = s match {
+  def stringToDirection(s: String): Option[Direction] = s match {
     case "N" => Some(North);
     case "E" => Some(East);
     case "S" => Some(South);
