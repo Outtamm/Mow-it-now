@@ -32,7 +32,7 @@ case class Mower(position : Coordonnees, direction : Direction) {
   }
 
 
-    def print() = this.position.x + " " + this.position.y + " " + this.direction.toString
+    def print(m : Mower) = m.position.x + " " + m.position.y + " " + m.direction.toString
 
     def miseAJour(instruction: String, jardin: Jardin): Unit = {
       instruction match {
