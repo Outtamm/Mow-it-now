@@ -9,3 +9,7 @@ def factorielle(n):
 
 def addition(n1, n2):
     return n1 + n2
+
+
+def soustraction(n1,n2):
+    return n1-n2
